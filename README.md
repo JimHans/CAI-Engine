@@ -15,12 +15,10 @@ CAI Engine 是基于PHP语言的用户口令验证系统，通过接收表单提
 
 参照index.php，将
 
-<pre>
-    <code>
+`
     echo"<form action=\"judge.php\" method=\"post\">输入邀请码:<input type=\"text\" name=\"config\"><input type=\"submit\" value=\"提交\"></form>";
-    
-</code>
-</pre>
+    	`
+	
 粘贴到需要调用CAI Engine 的位置。CSS样式可以自行设计，但action与method必须正确。
 将
 <pre>
