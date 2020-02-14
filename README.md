@@ -7,6 +7,7 @@
 <img src="https://img.shields.io/badge/Design-ZEROLITE-purple.svg?style=flat-square">
 <img src="https://img.shields.io/badge/REQUIRED-PHP 5+&MySQL-blue.svg?style=flat-square">
 </p>
+
 ### 中文
 
 CAI Engine 是基于PHP语言的用户口令验证系统，通过接收表单提交的用户口令并与数据库进行比对以进行对口令的验证。并且，通过大数与时间戳混合动态加密，可以很好地对返回口令进行加密以加强安全性。
@@ -16,8 +17,7 @@ CAI Engine 是基于PHP语言的用户口令验证系统，通过接收表单提
 
 <pre>
     <code>
-    echo"<form action=\"judge.php\" method=\"post\">
-输入邀请码,邀请码必须包含数字及字母: <input type=\"text\" name=\"config\">
+    echo"<form action=\"judge.php\" method=\"post\">输入邀请码,邀请码必须包含数字及字母: <input type=\"text\" name=\"config\">
 <input type=\"submit\" value=\"提交\"></form>";
 </code>
 </pre>
