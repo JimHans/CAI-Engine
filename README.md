@@ -1,7 +1,7 @@
-![image](https://raw.githubusercontent.com/JimHans/CAI-Engine/master/CAI%20ENGINE%201.5.5%20BETA/CAI.png)
+
 # CAI-Engine
 <p align="center">
- 
+ ![image](https://raw.githubusercontent.com/JimHans/CAI-Engine/master/CAI%20ENGINE%201.5.5%20BETA/CAI.png)
  <img src="https://img.shields.io/badge/Version-1.5.5 Beta-red.svg?style=flat-square">
 <img src="https://img.shields.io/badge/language-PHP-green.svg?style=flat-square">
 <img src="https://img.shields.io/badge/Design-ZEROLITE-purple.svg?style=flat-square">
