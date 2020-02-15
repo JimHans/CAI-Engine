@@ -60,4 +60,4 @@ else {
 4.由于目前仍基于post进行数据传输，因此建议您使用TLS1.2或更高版本的加密协议加密连接。
 5.请不要将此系统用于安全性要求较高的系统！
 CAI Engine:A PHP-based User Password Verification System
-readily written by JimHan
+improvised by JimHan
