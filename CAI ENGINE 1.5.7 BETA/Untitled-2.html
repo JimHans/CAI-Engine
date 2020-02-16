@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+	<style type="text/css">
+  .container{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+  }
+.image{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+	left: -80px;
+	top: 95px;
+    margin: 0 auto;
+	animation: wavefont 3s ease-in-out;
+	animation-iteration-count: infinite;
+	
+  }
+		.vers{
+    text-align: center;
+		bottom:5px;
+			
+	
+  }
+		.circle{
+    position: absolute;
+    left: -156px;
+    top: 0px;
+    width: 350px;
+    height: 350px; 
+    border: 8px solid #1E90FF;
+    border-radius: 50%; 
+    opacity: 0;
+	animation: waveCircle2 2s ease-in-out;
+	animation-iteration-count: infinite;
+  }
+
+  .wave{
+    position: absolute;
+    left: -155px;
+    top: 2px;
+    width: 350px;
+    height: 350px; 
+    border: 6px solid #1E90FF;
+    border-radius: 50%; 
+    opacity: 0;
+    animation: waveCircle 2s ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  @-webkit-keyframes waveCircle {
+    0%{
+      transform: scale(1);
+      opacity: 0.6;
+    }
+	  
+	  50%{
+      transform: scale(0.7);
+      opacity: 1;
+    }
+	  100%{
+      transform: scale(1);
+      opacity: 0.6;
+    }
+  }
+		@-webkit-keyframes waveCircle2 {
+			0%{
+      transform: scale(0.75);
+      opacity: 0.5;
+    }
+    100%{
+      transform: scale(0.75);
+      opacity: 0.5;
+    }
+  }
+		@-webkit-keyframes wavefont {
+
+    0%{
+      opacity: 0.2;
+    }
+			50%{
+      opacity: 1;
+    }
+			 100%{
+      opacity: 0.2;
+    }
+  }
+	
+  </style>
+
+</head>
+
+<body>
+	
+<div class="container">
+	
+<div align="center" class="image">
+	<img src="CAI.png" width="210" height="190" alt=""/></div>
+<div class="circle"></div>  
+ <div class="wave"></div>
+</div>
+<div class="vers">
+CAI
+	</div>
+	
+</body>
+	</html>
