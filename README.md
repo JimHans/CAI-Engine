@@ -57,7 +57,7 @@ else {
 ##### 1.可以使用如index.php的将输入组件与解码组件写在一起的样式，但将它们拆分为两个文件更优。
 ##### 2.PHP版本必须为5+
 ##### 3.在你更改了MySQL服务器或登录用户名密码时，请在judge.php中同样更改您的配置。
-##### 4.由于目前仍基于post进行数据传输，因此建议您使用TLS1.2或更高版本的加密协议加密连接。
+##### 4.由于基于session进行数据传输，尽管回调ID具有加密及时效性，还是建议您使用TLS1.2或更高版本的加密协议加密连接。
 ##### 5.请不要将此系统用于安全性要求较高的系统！
 CAI Engine:A PHP-based User Password Verification System
 improvised by JimHan
