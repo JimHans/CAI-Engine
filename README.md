@@ -4,7 +4,7 @@
 # CAI-Engine
 <p align="center">
 
- <img src="https://img.shields.io/badge/Version-1.5.5 Beta-red.svg?style=flat-square">
+ <img src="https://img.shields.io/badge/Version-1.6.7 Stable-red.svg?style=flat-square">
 <img src="https://img.shields.io/badge/language-PHP-green.svg?style=flat-square">
 <img src="https://img.shields.io/badge/Design-ZEROLITE-purple.svg?style=flat-square">
 <img src="https://img.shields.io/badge/REQUIRED-PHP 5+-blue.svg?style=flat-square">
@@ -20,7 +20,7 @@ CAI Engine 是基于PHP语言的用户口令验证系统，通过接收表单提
 参照index.php，将
 
 `
-    echo"<form action=\"judge.php\" method=\"post\">输入邀请码:<input type=\"text\" name=\"config\"><input type=\"submit\" value=\"提交\"></form>";
+    echo"<form action=\"judge.php\" method=\"post\">输入校验口令:<input type=\"text\" name=\"config\"><input type=\"submit\" value=\"提交\"></form>";
     	`
 	
 粘贴到需要调用CAI Engine 的位置。CSS样式可以自行设计，但action与method必须正确。
