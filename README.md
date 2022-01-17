@@ -7,7 +7,7 @@
  <img src="https://img.shields.io/badge/Version-1.6.7 Stable-red.svg?style=flat-square">
 <img src="https://img.shields.io/badge/language-PHP-green.svg?style=flat-square">
 <img src="https://img.shields.io/badge/Design-ZEROLITE-purple.svg?style=flat-square">
-<img src="https://img.shields.io/badge/REQUIRED-PHP 5+-blue.svg?style=flat-square">
+<img src="https://img.shields.io/badge/PHP Requirement-PHP 5+-blue.svg?style=flat-square">
 </p>
 
 ### 中文
