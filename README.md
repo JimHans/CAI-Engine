@@ -15,8 +15,7 @@
 作为一个学习PHP与MySQL开发的学习作品，CAI Engine 是基于PHP语言与MySQL数据表查询的用户口令验证系统，通过接收表单提交的用户口令并与数据库进行比对以进行对口令的验证。由于技术的限制，它很菜（因此叫CAI-Engine :P）而且使用了明文传递Token。为了避免明文传输的不安全性，此项目通过大数与时间戳混合动态加密，可以很好地对返回口令进行加密以加强安全性。当然，由于并未采用非对称非明文传输，整体安全性仍然不允许您正式地部署在生产环境中。
 
 ## English
-- CAI Engine:A PHP-based User Password Verification System
-- improvised by JimHan
+- CAI Engine:A PHP-based User Password Verification System improvised by JimHan
 
 ## 部署
 
