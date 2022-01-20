@@ -55,12 +55,12 @@ else {
 现在，你可以在[📺]处添加你想要显示的HTML。它们将只在口令验证正确后才会被加载。
 
 ### Tips
-#### 1.可以使用如index.php的将输入组件与解码组件写在一起的样式，但将它们拆分为两个文件更优。
-#### 2.PHP版本必须为5+（因为只有在这之上的版本才能执行MySQL指令）
-#### 3.在你更改了MySQL服务器或登录用户名密码时，请在judge.php中同样更改你的配置。
-#### 4.由于基于session进行数据传输，尽管回调ID具有加密及时效性，还是建议你使用TLS1.2或更高版本的加密协议加密连接。
-#### 5.请不要将此系统用于安全性要求较高的系统！
+- 1.可以使用如index.php的将输入组件与解码组件写在一起的样式，但将它们拆分为两个文件更优。
+- 2.PHP版本必须为5+（因为只有在这之上的版本才能执行MySQL指令）
+- 3.在你更改了MySQL服务器或登录用户名密码时，请在judge.php中同样更改你的配置。
+- 4.由于基于session进行数据传输，尽管回调ID具有加密及时效性，还是建议你使用TLS1.2或更高版本的加密协议加密连接。
+- 5.请不要将此系统用于安全性要求较高的系统！
 
 ## English
-CAI Engine:A PHP-based User Password Verification System
-improvised by JimHan
+- CAI Engine:A PHP-based User Password Verification System
+- improvised by JimHan
