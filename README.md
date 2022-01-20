@@ -27,8 +27,7 @@
     echo"<form action=\"judge.php\" method=\"post\">输入校验口令:<input type=\"text\" name=\"config\"><input type=\"submit\" value=\"提交\"></form>";
     	`
 	
-粘贴到需要调用CAI Engine 的位置。CSS样式可以自行设计，但action与method必须正确。
-将
+提交表单代码粘贴到需要调用CAI Engine 的位置。CSS样式可以自行设计，但action与method必须正确。通过这个调用了Judge.php的表单，你将可以提交用户的输入信息给后端判断器。完成表单添加之后，将
 <pre>
     <code>if (isset($_REQUEST)&&$_REQUEST){
 $req= $_REQUEST['req'];
@@ -47,13 +46,15 @@ else {
 		}
 	}  </code>
 </pre>
-解码组件粘贴在需要限制访问的页面，并将judge.php 移至网页目录。
+解码组件粘贴在需要限制访问的页面。并将judge.php 移至网页目录。
+在这里，php在获得判断器的判断结果数据时使用url获取参数，并使用素数进行同步解密，并用当前时间戳进行了二次解密。因为时间戳的存在，因此使得该token具有1min的生命周期。
 
 #### 2.
 
 ·在MySQL中创建名为cai_db的数据库，并在其下创建名为caidata的数据表。
 ·在caidata下创建名为pass的text类型字段。
 ·在该字段下添加你的口令。
+你也可以使用其他类型的数据库结构，但这需要你在judge.php中更改数据库读取字段。
 #### 3.
 现在，你可以在[📺]处添加你想要显示的HTML。它们将只在口令验证正确后才会被加载。
 
